@@ -1,0 +1,30 @@
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\Core.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\Core.pdb
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\DataAccess\bin\Debug\Core.dll.config
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\Core.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\Core.pdb
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\Core.dll.config
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\DataAccess\obj\Debug\DataAccess.pdb

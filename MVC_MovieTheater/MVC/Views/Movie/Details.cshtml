@@ -1,0 +1,29 @@
+﻿@using DataAccess.Entity
+@model Movie
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-striped mt-2">
+    <thead>
+        <tr>
+            <th style="color:mediumvioletred">Film Adı</th>
+            <th style="color:mediumvioletred">Açıklama</th>
+            <th style="color:mediumvioletred">Süre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="color:white">@Model.MovieName</td>
+            <td style="color:white">@Model.Description</td>
+            <td style="color:white">@Model.Duration</td>
+        </tr>
+
+    </tbody>
+
+</table>
+<div class="text-center">
+    @Html.ActionLink("Bilet Al", "AddToCart","Home", new { id = Model.MovieID }, new { @class = "btn btn-dark mt-2" })
+</div>
+

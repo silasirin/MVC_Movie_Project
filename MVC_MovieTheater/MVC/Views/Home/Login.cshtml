@@ -1,0 +1,39 @@
+﻿@model AppUserVM
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-5">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header"><h3 class="text-center font-weight-light my-4">Giriş Yap</h3></div>
+                <div class="card-body">
+                    @if (TempData["error"] != null)
+                    {
+                        <div>
+                            <h5 style="color:red">@TempData["error"]</h5>
+                        </div>
+                    }
+                <form method="post">
+
+                    <div>
+                        @Html.DisplayNameFor(x => x.UserName)
+                        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+                    </div>
+                    <div>
+                        @Html.DisplayNameFor(x => x.Password)
+                        @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+                    </div>
+                    <br />
+                    @Html.ActionLink("Giriş Yap", "Index", "Home", null, new { @class = "btn btn-outline-dark" })
+                    @*<button type="submit" class="btn btn-outline-dark btn-block mt-3">Giriş Yap</button>*@
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

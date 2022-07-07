@@ -1,0 +1,24 @@
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\bin\Debug\Core.dll.config
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\bin\Debug\Core.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\bin\Debug\Core.pdb
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\bin\Debug\EntityFramework.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\bin\Debug\EntityFramework.xml
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\obj\Debug\Core.csproj.AssemblyReference.cache
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\obj\Debug\Core.dll
+C:\Users\Sıla Şirin\Desktop\MVC_MovieTheater\Core\obj\Debug\Core.pdb
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\bin\Debug\Core.dll.config
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\bin\Debug\Core.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\bin\Debug\Core.pdb
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\bin\Debug\EntityFramework.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\bin\Debug\EntityFramework.xml
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\obj\Debug\Core.csproj.AssemblyReference.cache
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\obj\Debug\Core.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Core\obj\Debug\Core.pdb

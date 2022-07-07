@@ -1,0 +1,21 @@
+ODEV:
+
+.NET Mvc Cinema Project
+--Ntier mimari kullanarak MovieTheater DB isimli veritabani CodeFirst ile
+olusturulacak.
+--Movie CRUD
+--Saloon CRUD
+--Session CRUD
+--Week CRUD (or matrix filmi 1-5 haziran arasinda, oturumlar 11:00,14:00 vs.)
+buradaki haftalar)
+Category CRUD
+--Rezervasyon
+
+film eklenebilsin
+salon eklenebilsin
+oturumlar eklenebilsin
+bir filmle ilgili tum detaylara ulasabilelim
+
+kullanici olarak filme rezervasyon yapilabilsin
+
+deadline: 15 haziran (api dahil degil)

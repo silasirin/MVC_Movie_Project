@@ -1,0 +1,58 @@
+MOVIETHEATER PROJECT
+
+1- Blank solution icerisine class library DataAccess katmani acildi.
+
+2- DataAccess icine Entity ve Context klasorleri acildi. Propertyler olusturuldu, Dbsetler yazildi. EF kurulumu yapilip enable-migrations yapildi.
+
+3- DataAccess icine Tool klasoru acildi. Icine DnContextSingleton class'i acildi.
+
+4- Core isminde bir katman tanimlandi (class library .net framework). Her bir class'a onculuk edecek base class'lar burada tanimlanacak.
+
+5- Core icerisine EntityRepository class'i acildi. Icerisine tum entity'lerde olmazsa olmaz property'ler burada tanimlaniyor. DataAccess-Entity icerisindeki class'lar EntityRepository'den miras aldi.(bunun icin dataaccess core'dan referans almalidir).
+
+6- Core icerisine Enums klasoru, onun icine de Status class'i acildi.
+
+7- DataAcces icerine Map adinda bir klasor acildi. Icerisinde entity class'lariyla ilgili islemleri barindiracak. Bu nedenle icerisine Map class'lari acildi. CoreMap'ten miras aliyorlar.
+
+8- ProjectContext'teki override kismi su sekilde degistirilir:
+
+ protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new CategoryMap()); //class'taki constructor'in calismasi icin new yazarak instance aldik. -->tum map class'lari icin aynisi yazilir.
+            base.OnModelCreating(modelBuilder); 
+        }
+
+9- Migrations - Configurations icerisindeki Seed'e her bir class icin liste olusturup veri ekledik ve bu verileri tablolara eklendi. SQL'de varolan database'i ucurup update-database yapildi.
+
+10- Core icerisine Service adinda bir klasor olusturulup ICoreService adinda bir interface olusturuldu, EntityRepository class'indan kalitim aldi. icerisinde CRUD islemlerinin methodlari tanimlandi.
+
+11- BLL katmani acildi (class library .net framework). Core ve DataAccess'ten reference alindi. 
+
+12- BLL katmani icerisine Base klasoru, onun icine de BaseService class'i acildi ve Core'da bulunan ICoreService'ten referans aldi.
+
+13- BLL icerisine Concrete klasoru acildi, her bir property icin Service class'lari olusturulup BaseService'ten kalitim aldirildi.
+
+14- Common adinda bir class library proje olusturuldu. Icerisine mailSender ve imageUploader olusturuldu.
+
+15- MVC adinda ASP.Net web application (.net framework) proje acildi. Icerisine Areas klasoru acildi. Projeye diger tum projelerden referans eklendi.
+
+16- Areas klasoru icerisine Admin adinda bir Area olusturuldu. MVC projesinin icindeki App_Start klasorunde bulunan RoutConfig icerisine "namespaces: new[] { "MVC.Controllers" }" yazildi.
+
+17- Areas-Admin-Controllers icerisine her bir tablo icin controller eklendi.
+
+18- DataAcces icerisine AppUser adinda bir class olusturuldu ve category vs yapilan islemler ve acilan class'larin aynisi AppUser icin de tekrarlandi.
+
+19- MVC projesi icerisindeki controllers'a home controller acildi. Register islemleri yapildi.
+
+20- BLL-Concrete icerisine AppUserService class'i acilip BaseService<AppUser>'dan kalitim aldi.
+
+21- MVC projesi Models klasoru icerisine AppUserVM class'i olusturuldu.
+
+22- MVC projesi icerisine bootstrap ve jquery yuklemesi yapildi.
+
+23- NOT: FOTOGRAFLAR FOREACH ILE TEK TEK EKLENECEK!!
+    MOVIE ID SALOON ID ILE ESLESECEK. ALINAN BILET SAYISINA GORE, SALON KAPASITESI AZALACAK.
+
+14- Siparisiniz olusturuldu sayfasi yapildi. Index yapildi. Sepet yapildi. Details yapildi.
+
+15- MovieController acildi. Icinde movie details var.

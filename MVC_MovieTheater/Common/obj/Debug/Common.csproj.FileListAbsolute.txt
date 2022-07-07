@@ -1,0 +1,6 @@
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Common\bin\Debug\Common.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Common\bin\Debug\Common.pdb
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Common\obj\Debug\Common.dll
+C:\Users\Sıla Şirin\Desktop\Movie Project\MVC_MovieTheater\Common\obj\Debug\Common.pdb

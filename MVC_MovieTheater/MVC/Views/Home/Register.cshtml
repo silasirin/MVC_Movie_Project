@@ -1,0 +1,49 @@
+﻿@model MVC.Models.AppUserVM
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-5">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header"><h3 class="text-center font-weight-light my-4">Kayıt Ol</h3></div>
+                <div class="card-body">
+                    <form method="post">
+                        <div>
+                            <label>Kullanıcı Adı:</label>
+                            @Html.ValidationMessageFor(x => x.UserName)
+                            <br />
+                            @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+                        </div>
+                        <div>
+                            <label>Email:</label>
+                            @Html.ValidationMessageFor(x => x.Email)
+                            <br />
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                        </div>
+                        <div>
+                            <label>Şifre:</label>
+                            @Html.ValidationMessageFor(x => x.Password)
+                            <br />
+                            @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+                        </div>
+                        <div>
+                            <label>Şifre Tekrar:</label>
+                            @Html.ValidationMessageFor(x => x.ConfirmPassword)
+                            <br />
+                            @Html.TextBoxFor(x => x.ConfirmPassword, new { @class = "form-control" })
+                        </div>
+                        <br />
+                        @Html.ActionLink("Kayıt Ol", "Login", "Home", null, new { @class = "btn btn-outline-dark" })
+                        @*<button type="submit" class="btn btn-outline-dark">Kayıt Ol</button>*@
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

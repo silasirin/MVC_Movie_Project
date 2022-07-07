@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "MyCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    Cart sessionCart = Session["scart"] as Cart; //Unboxing
+    decimal? totalPrice = 0;
+}
+
+
+<div class="row">
+    <div class="col-md-9">
+        <table class="table table-responsive" style="background-color:white">
+            <thead>
+                <tr>
+                    <th>Görsel</th>
+                    <th>Film Adı</th>
+                    <th>Bilet Adeti</th>
+                    <th>Fiyat</th>
+                    <th>Ara Toplam</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in sessionCart.myCart)
+                {
+                    totalPrice += item.SubTotal;
+                    <tr>
+
+                        <td><img /></td>
+                        <td>@item.MovieName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price</td>
+                        <td>@item.SubTotal</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Siparis Ozeti</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    @*verileri yan yana yazdirmamizi saglar*@
+                    <h5>Genel Toplam: </h5>
+                    <h5> @totalPrice TL</h5>
+                </div>
+                <div class="col-md-12 mt-5">
+                    @Html.ActionLink("Alisverisi Tamamla", "CompleteCart", "Home", null, new { @class = "btn btn-outline-dark" })
+                    @Html.ActionLink("Devam Et", "Index", "Home", null, new { @class = "btn" })
+                    @*text, action, controller, routeValue, htmlAttribute*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
